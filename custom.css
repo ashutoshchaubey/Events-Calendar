@@ -1,0 +1,22 @@
+.event-card{
+	border: 2px solid #d4d9d1;
+    box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 14px;
+    background-color: #d4d9d1;
+    /*margin-top: 70px;*/
+    min-height: 400px;
+}
+
+.main-card{
+	border: 2px solid #d4d9d1;
+    box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 14px;
+    color: teal;
+    background-color: #d4d9d1;
+}
+
+@media screen and (max-width: 720px) {
+	.event-card{
+		margin-top: 100px;
+	}
+}
